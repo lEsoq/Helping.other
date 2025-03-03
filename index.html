@@ -1,195 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://i.postimg.cc/Z5PTYM2N/R.png'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helping Others</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div>
-                <a href="#" class="nav-logo">Helping others</a>
-            </div>
+  <!-- Full screen white background -->
+  <div class="full-screen">
+    <div class="circle">
+      <img src="https://i.postimg.cc/rsDbdDpb/4a950fdd20d95c1e1577ce7e59f64be0.jpg" alt="Helping Others">
+    </div>
+    <div class="intro-text">
+      <h1 class="text-effect">Hi,</h1>
+      <h2 class="text-effect">We are <span class="blue-text">Helping others</span></h2>
+      <p class="text-effect">On Web Designer</p>
+    </div>
+  </div>
 
-            <div class="nav-menu" id="nav-menu">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-            </div>
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="#home" onclick="scrollToSection('home')" class="nav-link">الرئيسية</a></li>
+      <li><a href="#about" onclick="scrollToSection('about')" class="nav-link">عنا</a></li>
+      <li><a href="#skills" onclick="scrollToSection('skills')" class="nav-link">المهارات</a></li>
+      <li><a href="#youtube" onclick="scrollToSection('youtube')" class="nav-link">YouTube</a></li>
+      <li><a href="#discord" onclick="scrollToSection('discord')" class="nav-link">Discord</a></li>
+    </ul>
+  </nav>
 
-            <div class="nav-toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
-            </div>
+  <!-- Sections -->
+  <section id="home">
+    <h2 class="large-text">Helping Others</h2>
+    <p class="large-text">نقدم مساعدات برمجية لجميع المستويات</p>
+  </section>
 
-        </nav>
-    </header>
+  <section id="about">
+    <h2 class="large-text">عنا</h2>
+    <p class="large-text">نقدم دروسًا وموارد لمساعدتك على التطور كمبرمج</p>
+  </section>
 
-    <main class="l-main">
-        <section class="home bd-grid" id="home">
-            <div class="home-data">
-                <h1 class="home-title">Hi, <br>We are <span class="home-title-color">Helping others</span><br> On Web Designer</h1>
-                <a href="#" class="button">Contact</a>
-                <a href="https://discord.gg/drMEZng8" class="button" target="_blank">Server Discord</a>
-            </div>
+  <section id="skills">
+    <h2 class="large-text">المهارات</h2>
+    <p class="large-text">تعلم المهارات البرمجية الأساسية هنا لتحسين قدراتك.</p>
+  </section>
 
-            <div class="home-social">
-                <a href="#" class="home-social-icon"><i class='bx bxl-linkedin' ></i></a>
-                <a href="#" class="home-social-icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="home-social-icon"><i class='bx bxl-github' ></i></a>
-            </div>
+  <section id="youtube">
+    <h2 class="large-text">YouTube</h2>
+    <p class="large-text">اطلع على قناة يوتيوب الخاصة بنا للحصول على فيديوهات ودروس مفيدة.</p>
+    <a href="https://www.youtube.com/@SePq1" target="_blank">YouTube</a>
+  </section>
 
-            <div class="home-img">
-                <img src="https://i.postimg.cc/rsDbdDpb/4a950fdd20d95c1e1577ce7e59f64be0.jpghttps://i.postimg.cc/rsDbdDpb/4a950fdd20d95c1e1577ce7e59f64be0.jpg" alt="image">
-            </div>
-        </section>
+  <section id="discord">
+    <h2 class="large-text">Discord</h2>
+    <p class="large-text">انضم إلى سيرفير Discord الخاصة بنا للحصول على دعم ومشاركة معرفتك البرمجية.</p>
+    <a href="https://discord.gg/drMEZng8" target="_blank">Server  Discord</a>
+  </section>
 
-        <section class="about section" id="about">
-            <h2 class="section-title">About</h2>
-
-            <div class="about-container bd-grid">
-                <div class="about-img">
-                    <img src="https://i.postimg.cc/rsDbdDpb/4a950fdd20d95c1e1577ce7e59f64be0.jpg" alt="image">
-                </div>
-
-                <div>
-                    <h2 class="about-subtitle">Helping others</h2>
-                    <p class="about-text">بصفتي مصمم ويب شغوفا ، فأنا أزدهر في إنشاء مواقع ويب جذابة بصريا وسهلة الاستخدام. بدأت رحلتي في تصميم الويب بسحر كيف يمكن للتصميم أن يعزز تجربة المستخدم او اي شخص يريد تعيلم</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
-
-            <div class="skills-container bd-grid">
-                <div>
-                    <h2 class="skills-subtitle">Professional Skills</h2>
-                    <p class="skills-text">أحب التفكير خارج الصندوق وإضفاء الحيوية على الأفكار الفريدة من خلال التصميم ، ولدي إجادة في HTML و CSS و JavaScript ، مما يضمن أن تصميماتي ليست جميلة فحسب ، بل عملية أيضا. أعطي الأولوية لاحتياجات وتفضيلات المستخدمين ، وأجري بحثا لفهم سلوكياتهم وتفضيلاتهم.</p>
-
-                    <div class="skills-data">
-                        <div class="skills-names">
-                            <i class='bx bxl-html5 skills-icon' ></i>
-                            <span class="skills-name">HTML5</span>
-                        </div>
-
-                        <div>
-                            <span class="skills-percentage">95%</span>
-                        </div>
-
-                        <div class="skills-bar skills-html"></div>
-                    </div>
-
-                    <div class="skills-data">
-                        <div class="skills-names">
-                            <i class='bx bxl-css3 skills-icon' ></i>
-                            <span class="skills-name">CSS3</span>
-                        </div>
-
-                        <div>
-                            <span class="skills-percentage">85%</span>
-                        </div>
-
-                        <div class="skills-bar skills-css"></div>
-                    </div>
-
-                    <div class="skills-data">
-                        <div class="skills-names">
-                            <i class='bx bxl-javascript skills-icon' ></i>
-                            <span class="skills-name">JAVASCRIPT</span>
-                        </div>
-
-                        <div>
-                            <span class="skills-percentage">65%</span>
-                        </div>
-
-                        <div class="skills-bar skills-js"></div>
-                    </div>
-
-                    <div class="skills-data">
-                        <div class="skills-names">
-                            <i class='bx bxs-paint skills-icon' ></i>
-                            <span class="skills-name">UX/UI</span>
-                        </div>
-
-                        <div>
-                            <span class="skills-percentage">85%</span>
-                        </div>
-
-                        <div class="skills-bar skills-ux"></div>
-                    </div>
-                </div>
-
-                <div>
-                    <img src="https://i.postimg.cc/52LWbPyt/work3.jpg" alt="image" class="skills-img">
-                </div>
-            </div>
-        </section>
-
-        <section class="work section" id="work">
-            <h2 class="section-title">Work</h2>
-
-            <div class="work-container bd-grid">
-                <div class="work-img">
-                    <img src="https://i.postimg.cc/NM0n9bsm/work1.jpg" alt="image">
-                </div>
-
-                <div class="work-img">
-                    <img src="https://i.postimg.cc/tJZmDTVg/work2.jpg" alt="image">
-                </div>
-
-                <div class="work-img">
-                    <img src="https://i.postimg.cc/52LWbPyt/work3.jpg" alt="image">
-                </div>
-
-                <div class="work-img">
-                    <img src="https://i.postimg.cc/fW1wsSCB/work4.jpg" alt="image">
-                </div>
-
-                <div class="work-img">
-                    <img src="https://i.postimg.cc/m2MTgZ6R/work5.jpg" alt="image">
-                </div>
-
-                <div class="work-img">
-                    <img src="https://i.postimg.cc/Qd3h9LR7/work6.jpg" alt="image">
-                </div>
-            </div>
-        </section>
-
-        <section class="contact section" id="contact">
-            <h2 class="section-title">Contact</h2>
-
-            <div class="contact-container bd-grid">
-                <form action="" class="contact-form">
-                    <input type="text" placeholder="Name" class="contact-input">
-                    <input type="email" placeholder="Email" class="contact-input">
-                    <textarea name="" id="" cols="0" rows="10" class="contact-input"></textarea>
-
-                    <input type="button" value="Send" class="contact-button button">
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <p class="footer-title">Helping others</p>
-
-        <div class="footer-social">
-            <a href="#" class="footer-icon"><i class='bx bxl-facebook'></i></a>
-            <a href="#" class="footer-icon"><i class='bx bxl-instagram' ></i></a>
-            <a href="#" class="footer-icon"><i class='bx bxl-twitter' ></i></a>
-        </div>
-
-        <p>&#169; © 2025حقوق الطبع والنشر محفوظة جميع الحقوق</p>
-    </footer>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="main.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
