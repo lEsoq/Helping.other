@@ -64,12 +64,15 @@
     position: fixed;
     width: 100%;
     top: 0;
+    left: 0; /* Ensure the nav spans across the full width */
     z-index: 10;
   }
   
   nav ul {
     list-style: none;
     text-align: center;
+    margin: 0;
+    padding: 0;
   }
   
   nav ul li {
@@ -83,7 +86,7 @@
     font-size: 24px;
     font-weight: bold;
     transition: all 0.3s ease;
-    padding: 10px 20px;
+    padding: 15px 20px;
     display: inline-block;
   }
   
